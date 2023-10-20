@@ -1,5 +1,5 @@
 # War-Card-Game
-This project is an implementation of the classic card game "War" in Elixir, Haskell, and Rust. The game simulates a shuffled deck of cards and deals them to two players, who take turns revealing cards and engaging in "war" when ties occur. The game continues until one player runs out of cards. Each implementation follows the same rules and technical details.
+This project is an implementation of the classic card game `War` in Elixir, Haskell, and Rust. The game simulates a shuffled deck of cards and deals them to two players, who take turns revealing cards and engaging in "war" when ties occur. The game continues until one player runs out of cards. Each implementation follows the same rules and technical details.
 
 ## Table of Contents
 
