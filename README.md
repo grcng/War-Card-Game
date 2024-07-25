@@ -18,6 +18,7 @@ The card ranks, in ascending order, are: 2-10, Jack, Queen, King, Ace. Aces are 
 ### War!
 If the revealed cards are tied, there is war! Each player turns up one card face down followed by one card face up. The player with the higher face-up card takes both piles (six cards – the two original cards that were tied, plus the four cards from the war). If the turned-up cards are again the same rank, each player places another card face down and turns another card face up. The player with the higher card takes all 10 cards, and so on.
 
+### Winner
 When one player cannot play or draw a card because their pile is empty, they are the loser, and the other the winner. This applies during a war as well.
 
 ## Technical Details
