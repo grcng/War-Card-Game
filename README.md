@@ -8,10 +8,17 @@ This project is an implementation of the classic card game `War` in Elixir, Hask
   * [Usage](#usage)
 
 ## Game Description
-The game starts with a shuffled deck of cards. The deck is passed into the program already shuffled. Each player is dealt 26 cards, and cards are placed on top of each other. In each round, both players reveal the top card of their pile. The player with the higher card wins both cards. If cards are tied, a "war" occurs. During war, additional cards are turned face down and face up until a winner is determined. The game continues until one player runs out of cards.
+The game starts with a shuffled deck of cards. The deck is passed into the program already shuffled. The program will deal the cards in an alternating fashion to each player, so that each player has 26 cards. Each card is dealt on top of the previous, so that the top card of each pile after dealing will be the last card that was dealt. 
+
+In each round, both players reveal the top card of their pile. The player with the higher card (by rank) wins both cards.
 
 ### Card Ranking
 The card ranks, in ascending order, are: 2-10, Jack, Queen, King, Ace. Aces are considered high.
+
+### War!
+If the revealed cards are tied, there is war! Each player turns up one card face down followed by one card face up. The player with the higher face-up card takes both piles (six cards – the two original cards that were tied, plus the four cards from the war). If the turned-up cards are again the same rank, each player places another card face down and turns another card face up. The player with the higher card takes all 10 cards, and so on.
+
+When one player cannot play or draw a card because their pile is empty, they are the loser, and the other the winner. This applies during a war as well.
 
 ## Technical Details
 ### Input
